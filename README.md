@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Projeto Sensor ECG
 
 Este repositório contém o código-fonte de um sistema completo para **monitoramento de Eletrocardiograma (ECG)**. O sistema utiliza o sensor **AD8232** para aquisição de sinais biológicos e a tecnologia **LoRa 2.4 GHz** (transceptor SX128XLT) para a transmissão sem fio dos ciclos cardíacos.
@@ -31,7 +30,7 @@ Cada batimento normal (em **Ritmo Sinusal**) é composto por um ciclo de ondas q
 | :--- | :--- | :--- |
 | **Onda P** | Despolarização Atrial | Representa a contração dos átrios. |
 | **Complexo QRS** | Despolarização Ventricular | Representa a poderosa contração dos ventrículos. É a parte mais alta e estreita do traçado. |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Pico R** | Máxima Despolarização Ventricular | O **ponto de maior amplitude** (deflexão positiva) dentro do QRS. |
+| **Pico R** | Máxima Despolarização Ventricular | O **ponto de maior amplitude** (deflexão positiva) dentro do QRS. |
 | **Onda T** | Repolarização Ventricular | Representa o relaxamento e recuperação dos ventrículos. |
 | **Intervalo R-R** | Duração do Batimento | O tempo entre dois Picos R. Essencial para calcular a **Frequência Cardíaca (FC)** e a **Variação da Frequência Cardíaca (VFC)**. |
 
@@ -123,4 +122,3 @@ O código do receptor está configurado para o modo de escuta:
 3.  **Confirmação (ACK):** Após receber um pacote, o receptor envia uma mensagem de confirmação **"ACK"** de volta ao transmissor, indicando que a transmissão foi bem-sucedida para aquele fragmento.
 =======
 # Sensor_ECG
->>>>>>> origin/main
