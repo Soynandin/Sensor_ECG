@@ -120,5 +120,3 @@ O código do receptor está configurado para o modo de escuta:
 1.  **Recepção:** O `LoRa.receive()` aguarda por um pacote.
 2.  **Impressão:** O conteúdo do pacote é impresso na Serial (`Serial.println(buffer)`).
 3.  **Confirmação (ACK):** Após receber um pacote, o receptor envia uma mensagem de confirmação **"ACK"** de volta ao transmissor, indicando que a transmissão foi bem-sucedida para aquele fragmento.
-=======
-# Sensor_ECG
