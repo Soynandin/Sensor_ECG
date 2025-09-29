@@ -1,5 +1,5 @@
-# Projeto Sensor ECG (AD8232)
-# Projeto Sensor ECG (AD8232) e Comunicação LoRa
+<<<<<<< HEAD
+# Projeto Sensor ECG
 
 Este repositório contém o código-fonte de um sistema completo para **monitoramento de Eletrocardiograma (ECG)**. O sistema utiliza o sensor **AD8232** para aquisição de sinais biológicos e a tecnologia **LoRa 2.4 GHz** (transceptor SX128XLT) para a transmissão sem fio dos ciclos cardíacos.
 
@@ -121,3 +121,6 @@ O código do receptor está configurado para o modo de escuta:
 1.  **Recepção:** O `LoRa.receive()` aguarda por um pacote.
 2.  **Impressão:** O conteúdo do pacote é impresso na Serial (`Serial.println(buffer)`).
 3.  **Confirmação (ACK):** Após receber um pacote, o receptor envia uma mensagem de confirmação **"ACK"** de volta ao transmissor, indicando que a transmissão foi bem-sucedida para aquele fragmento.
+=======
+# Sensor_ECG
+>>>>>>> origin/main
